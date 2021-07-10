@@ -1,0 +1,96 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ol {
+    list-style: none;
+}
+ol li a{
+    text-decoration: none;
+    color: #262254;
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: inline block;
+    float: right;
+    border: 10px solid transparent;
+    margin: 10px 15px;
+}
+ol li a:hover{
+    color: #FFA45E;
+    transition: 0.3s ease;
+}
+.content{
+    color: #262254;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content p {
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+.thankyou{
+    color: #262254;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    bottom:20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thankyou p {
+    font-size: 1.3rem;
+}
+.main{
+    background-image: url(../assests/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.button1{
+    cursor: pointer;
+    background:  transparent;
+    border:  2px solid #262254;
+    color: #EC4178;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 0px;
+
+}
+.button1:hover{
+    background-color: #EC4178;
+    color: #FFA45E;
+    transition: 0.3s ease;
+}
+
+.social {
+    position: absolute;
+    bottom: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.social i{
+    color: #262254;
+    font-size: 2rem;
+    padding: 0px 10px;
+}
+.social i:hover{
+    
+    color: #FFA45E;
+    transition: 0.3s ease;
+}
